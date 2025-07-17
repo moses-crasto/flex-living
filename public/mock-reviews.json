@@ -1,0 +1,213 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "id": 7453,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Shane and family are wonderful! Would definitely host again :)",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 10
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "respect_house_rules",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2020-08-21 22:45:14",
+      "guestName": "Shane Finkelstein",
+      "listingName": "2B N1 A - 29 Shoreditch Heights",
+      "propertyId": "prop-1",
+      "approved": true
+    },
+    {
+      "id": 7454,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Great stay, very clean and well-located.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 9
+        },
+        {
+          "category": "communication",
+          "rating": 8
+        },
+        {
+          "category": "respect_house_rules",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2021-01-11 14:20:00",
+      "guestName": "Alice Johnson",
+      "listingName": "2B N1 A - 29 Shoreditch Heights",
+      "propertyId": "prop-1",
+      "approved": true
+    },
+    {
+      "id": 7455,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "The apartment was okay, but could have been cleaner.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 6
+        },
+        {
+          "category": "communication",
+          "rating": 8
+        },
+        {
+          "category": "respect_house_rules",
+          "rating": 9
+        }
+      ],
+      "submittedAt": "2021-03-15 09:33:00",
+      "guestName": "Tom Roberts",
+      "listingName": "Downtown Loft",
+      "propertyId": "prop-3",
+      "approved": true
+    },
+    {
+      "id": 7456,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Lovely guest, very respectful and quiet.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 10
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "respect_house_rules",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2021-04-20 18:45:00",
+      "guestName": "Nina Patel",
+      "listingName": "Downtown Loft",
+      "propertyId": "prop-3",
+      "approved": false
+    },
+    {
+      "id": 7457,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Nice location, host was friendly.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 8
+        },
+        {
+          "category": "communication",
+          "rating": 9
+        },
+        {
+          "category": "respect_house_rules",
+          "rating": 8
+        }
+      ],
+      "submittedAt": "2021-06-10 12:00:00",
+      "guestName": "Emily Wang",
+      "listingName": "Riverside Apartment",
+      "propertyId": "prop-2",
+      "approved": false
+    },
+    {
+      "id": 7458,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 5,
+      "publicReview": "Disappointed with the cleanliness and noise at night.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 4
+        },
+        {
+          "category": "communication",
+          "rating": 7
+        },
+        {
+          "category": "respect_house_rules",
+          "rating": 6
+        }
+      ],
+      "submittedAt": "2021-07-22 22:15:00",
+      "guestName": "Mark Lee",
+      "listingName": "City Center Studio",
+      "propertyId": "prop-4",
+      "approved": true
+    },
+    {
+      "id": 7459,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Very polite guest, left the place in great condition.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 9
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "respect_house_rules",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2021-08-05 10:30:00",
+      "guestName": "Sophia Brown",
+      "listingName": "City Center Studio",
+      "propertyId": "prop-4",
+      "approved": false
+    },
+    {
+      "id": 7460,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Perfect stay! Everything was amazing.",
+      "reviewCategory": [
+        {
+          "category": "cleanliness",
+          "rating": 10
+        },
+        {
+          "category": "communication",
+          "rating": 10
+        },
+        {
+          "category": "respect_house_rules",
+          "rating": 10
+        }
+      ],
+      "submittedAt": "2021-09-12 16:45:00",
+      "guestName": "David Kim",
+      "listingName": "Riverside Apartment",
+      "propertyId": "prop-2",
+      "approved": false
+    }
+  ]
+}

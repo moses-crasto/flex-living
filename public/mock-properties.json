@@ -1,0 +1,40 @@
+{
+  "properties": [
+    {
+      "id": "prop-1",
+      "name": "2B N1 A - 29 Shoreditch Heights",
+      "image": "/property1.jpg",
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "amenities": ["WiFi", "Air Conditioning", "Washing Machine", "Kitchen"]
+    },
+    {
+      "id": "prop-2",
+      "name": "Riverside Apartment",
+      "image": "/property2.jpg",
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "amenities": ["WiFi", "Balcony", "Elevator", "Gym Access"]
+    },
+    {
+      "id": "prop-3",
+      "name": "Downtown Loft",
+      "image": "/property3.jpg",
+      "guests": 3,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "amenities": ["WiFi", "Air Conditioning", "Kitchen"]
+    },
+    {
+      "id": "prop-4",
+      "name": "City Center Studio",
+      "image": "/property4.jpg",
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "amenities": ["WiFi", "Balcony", "Elevator"]
+    }
+  ]
+}
