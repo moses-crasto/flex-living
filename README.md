@@ -9,13 +9,10 @@ A modern Next.js 13 application featuring a properties listing and reviews dashb
 - [Project Overview](#project-overview)  
 - [Tech Stack](#tech-stack)  
 - [Features](#features)  
-- [Project Structure](#project-structure)  
 - [Setup and Running Locally](#setup-and-running-locally)  
 - [API Endpoints](#api-endpoints)  
 - [Design and Implementation Details](#design-and-implementation-details)  
 - [Future Improvements](#future-improvements)  
-- [License](#license)
-
 ---
 
 ## Project Overview
