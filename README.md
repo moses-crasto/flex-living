@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Flex Living Dashboard
 
-## Getting Started
+A modern Next.js 13 application featuring a properties listing and reviews dashboard with integrated backend APIs.
 
-First, run the development server:
+---
 
-```bash
+## Table of Contents
+
+- [Project Overview](#project-overview)  
+- [Tech Stack](#tech-stack)  
+- [Features](#features)  
+- [Project Structure](#project-structure)  
+- [Setup and Running Locally](#setup-and-running-locally)  
+- [API Endpoints](#api-endpoints)  
+- [Design and Implementation Details](#design-and-implementation-details)  
+- [Future Improvements](#future-improvements)  
+- [License](#license)
+
+---
+
+## Project Overview
+
+Flex Living Dashboard is a full-stack web application built with Next.js 13, showcasing properties with guest reviews. The app fetches property data and reviews from API routes within the same app, filters approved reviews, and displays them responsively.
+
+---
+
+## Tech Stack
+
+- **Next.js 13 (App Router)** – React framework with server-side rendering and API routes  
+- **TypeScript** – Static typing for safer, scalable code  
+- **React** – UI library for building components  
+- **Tailwind CSS** – Utility-first CSS framework for styling  
+- **Google Fonts** – Custom fonts integrated with Next.js font optimization  
+- **API Routes** – Backend REST APIs built-in Next.js under `src/app/api`  
+- **React Hooks** – State management and side effects handling
+
+---
+
+## Features
+
+- Responsive properties listing with 3 cards per row on desktop  
+- Guest reviews filtered by approval status  
+- Dynamic data fetching with loading states  
+- Review approval via API endpoints  
+- Custom fonts with Google Fonts integration  
+- Clean and modern UI with Tailwind CSS  
+
+---
+
+## Setup and Running Locally
+
+### Prerequisites
+
+- Node.js v18+  
+- npm
+
+### Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/moses-crasto/flex-living-dashboard.git
+   cd flex-living-dashboard
+   
+2. Install dependencies:
+npm install
+
+3. Run the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open http://localhost:3000 to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### API Endpoints
+GET /api/properties
+Returns all properties in JSON format.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+GET /api/reviews/hostaway
+Returns all guest reviews related to Hostaway.
 
-## Learn More
+POST /api/reviews/[id]/approve
+Approves a review by its ID.
 
-To learn more about Next.js, take a look at the following resources:
+### Design and Implementation Details
+API & Data Handling:
+Using Next.js API routes under src/app/api enables full-stack development inside a single project. The frontend fetches properties and reviews, then filters reviews client-side based on approved status.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Responsive Layout:
+CSS Grid with Tailwind classes ensures 3 properties per row on larger screens and single column on smaller devices.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Fonts & Styling:
+Google Fonts are integrated via Next.js font optimization APIs, enabling efficient font loading and usage across the app.
 
-## Deploy on Vercel
+Conditional Rendering:
+The app gracefully handles loading states and empty data scenarios, showing user-friendly messages such as "No published reviews yet."
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+###Future Improvements
+Add pagination for properties and reviews
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Enable review submission from users
+
+Implement user authentication for managing properties and reviews
+
+Improve accessibility and SEO
+
+Add unit and integration tests
